@@ -21,3 +21,25 @@ a {
 a:hover {
   color: rgb(190, 216, 240);
 }
+a.back-to-top {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  text-decoration: none;
+  color: #333;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+main {
+  padding: 20px;
+}
+section {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+img {
+  width: 150px;
+}
