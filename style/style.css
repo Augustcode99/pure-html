@@ -22,13 +22,16 @@ a:hover {
   color: rgb(190, 216, 240);
 }
 a.back-to-top {
-  display: block;
-  text-align: center;
-  margin: 20px 0;
-  text-decoration: none;
-  color: #333;
-  background-color: #eee;
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
   padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
   border-radius: 5px;
 }
 main {
